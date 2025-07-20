@@ -1,0 +1,211 @@
+      html,
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+      h1,
+      h2,
+      h3,
+      .navbar-brand {
+        font-family: "Orbitron", sans-serif;
+        letter-spacing: 1.5px;
+      }
+      .btn,
+      .form-label,
+      .form-check-label {
+        font-family: "Space Mono", monospace;
+      }
+      .btn {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+      .navbar-brand {
+        font-size: 2rem;
+        letter-spacing: 2px;
+      }
+      .about-section {
+        background: #fff;
+        border-radius: 20px;
+        box-shadow: 0 4px 25px 0 rgba(60, 90, 130, 0.08);
+        transition: background 0.3s, color 0.3s;
+      }
+      .about-section img {
+        box-shadow: 0 0.8rem 2rem 0 rgba(30, 40, 50, 0.09);
+      }
+      footer {
+        background: #282c34;
+        color: #fff;
+      }
+      .hero-banner {
+        background: linear-gradient(110deg, #41228e 0%, #2575fc 100%);
+      }
+      .glowing-box {
+        animation: glowPulse 3s ease-in-out infinite;
+        border-radius: 20px;
+      }
+      @keyframes glowPulse {
+        0% {
+          box-shadow: 0 0 10px rgba(0, 153, 255, 0.3),
+            0 0 20px rgba(0, 153, 255, 0.2), 0 0 30px rgba(0, 153, 255, 0.1);
+        }
+        50% {
+          box-shadow: 0 0 20px rgba(0, 153, 255, 0.5),
+            0 0 40px rgba(0, 153, 255, 0.4), 0 0 60px rgba(0, 153, 255, 0.3);
+        }
+        100% {
+          box-shadow: 0 0 10px rgba(0, 153, 255, 0.3),
+            0 0 20px rgba(0, 153, 255, 0.2), 0 0 30px rgba(0, 153, 255, 0.1);
+        }
+      }
+      .dark-mode {
+        background: #181c26 !important;
+        color: #eaeaea !important;
+      }
+      .dark-mode .about-section {
+        background: #242449 !important;
+        color: #e7e7ef !important;
+        box-shadow: 0 4px 20px rgba(10, 10, 20, 0.36);
+      }
+      .dark-mode section,
+      .dark-mode .navbar,
+      .dark-mode .container,
+      .dark-mode .navbar-brand {
+        background: transparent !important;
+        color: #eee !important;
+      }
+      .dark-mode .navbar,
+      .dark-mode .navbar-brand {
+        background: #19172b !important;
+      }
+      .dark-mode .navbar .nav-link,
+      .dark-mode .navbar-nav .nav-link.active {
+        color: #fff !important;
+      }
+      .dark-mode input,
+      .dark-mode textarea,
+      .dark-mode select,
+      .dark-mode .form-label {
+        background-color: #23233a !important;
+        color: #fafafa !important;
+        border-color: #444 !important;
+      }
+      .dark-mode .form-control,
+      .dark-mode .form-select {
+        background-color: #23233a !important;
+        color: #fff !important;
+        border-color: #444 !important;
+      }
+      .dark-mode .form-control:focus,
+      .dark-mode .form-select:focus {
+        background: #262642 !important;
+        color: #fff !important;
+        border-color: #9955ff !important;
+      }
+      .dark-mode .form-control::placeholder,
+      .dark-mode .form-select::placeholder {
+        color: #bbb !important;
+        opacity: 1 !important;
+      }
+      .dark-mode .form-floating > label {
+        color: #aaa !important;
+        opacity: 1 !important;
+      }
+      .dark-mode footer {
+        background: #17171f !important;
+        color: #fff;
+      }
+      .dark-mode .about-section img {
+        box-shadow: 0 0.8rem 2rem 0 rgba(30, 40, 50, 0.24);
+      }
+      .dark-mode .btn-outline-primary {
+        color: #fff;
+        border-color: #fff;
+      }
+      .dark-mode .btn-outline-primary:hover {
+        background: #fff;
+        color: #22223b;
+        border-color: #fff;
+      }
+      .dark-mode .hero-banner {
+        background: linear-gradient(
+          110deg,
+          #22113c 0%,
+          #172856 100%
+        ) !important;
+      }
+      .dark-mode .glowing-box {
+        animation: glowPulse 3s ease-in-out infinite;
+        box-shadow: 0 0 30px rgba(0, 204, 255, 0.3),
+          0 0 60px rgba(0, 204, 255, 0.2), 0 0 90px rgba(0, 204, 255, 0.1);
+      }
+      .dark-mode .text-white,
+      .dark-mode .text-primary {
+        color: #eaeaea !important;
+      }
+      .testimonial-card {
+        background: #fff;
+        border-radius: 16px;
+        box-shadow: 0 2px 18px rgba(40, 46, 78, 0.09);
+        padding: 1.5rem;
+        min-height: 200px;
+        margin-bottom: 1.3rem;
+        transition: box-shadow 0.2s;
+      }
+      .testimonial-card .avatar {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #2575fc;
+        box-shadow: 0 2px 8px rgba(80, 80, 180, 0.13);
+        margin-bottom: 0.6rem;
+      }
+      .testimonial-card .username {
+        font-family: "Space Mono", monospace;
+        font-weight: bold;
+      }
+      .dark-mode .testimonial-card {
+        background: #202040;
+        color: #bde4fa;
+      }
+      .chat-btn {
+        position: fixed;
+        bottom: 32px;
+        right: 28px;
+        z-index: 9999;
+        padding: 13px 24px 13px 18px;
+        background: linear-gradient(108deg, #2937ed 0%, #00e6fe 110%);
+        color: #fff;
+        font-family: "Space Mono", monospace;
+        font-size: 1.18rem;
+        border: none;
+        border-radius: 40px;
+        box-shadow: 0 2px 16px rgba(40, 80, 255, 0.28);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        transition: background 0.25s, transform 0.22s;
+        outline: none;
+      }
+      .chat-btn:hover {
+        background: linear-gradient(108deg, #00e6fe 0%, #2937ed 110%);
+        transform: scale(1.066);
+      }
+      .chat-pop {
+        position: fixed;
+        bottom: 85px;
+        right: 40px;
+        z-index: 10000;
+        min-width: 260px;
+        max-width: 95vw;
+        background: #fff;
+        border-radius: 16px;
+        box-shadow: 0 2px 22px rgba(60, 129, 189, 0.18);
+        padding: 18px;
+        font-size: 1.08rem;
+        display: none;
+      }
+      .dark-mode .chat-pop {
+        background: #23233a;
+        color: #fff;
+      }
